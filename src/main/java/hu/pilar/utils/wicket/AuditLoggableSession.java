@@ -15,5 +15,5 @@ package hu.pilar.utils.wicket;
 
 public interface AuditLoggableSession {
 
-  void auditLog(Exception ex);
+  void auditLog(Throwable ex);
 }
